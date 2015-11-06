@@ -20,7 +20,7 @@ for i in range(maxlength):
     datalist.append(numberlist)
 
 
-outfile = open('data.dat', 'w')
+outfile = open('data.json', 'w')
 
 json.dump(datalist, outfile)
 
